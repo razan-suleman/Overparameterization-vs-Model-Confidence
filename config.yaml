@@ -1,0 +1,33 @@
+# Configuration for overparameterization vs model confidence experiments
+
+experiment:
+  name: "mnist_width_study"
+  dataset: "mnist"  # or "fashion_mnist"
+  seeds: [42, 123, 456]  # Random seeds for reproducibility
+  widths: [32, 128, 256, 512, 1024]  # Hidden layer widths to test
+
+training:
+  epochs: 5
+  batch_size: 128
+  learning_rate: 0.001
+  optimizer: "adam"  # adam, sgd
+  loss: "cross_entropy"
+
+model:
+  input_size: 784  # 28*28
+  output_size: 10
+  activation: "relu"
+
+data:
+  root: "./data"
+  normalize_mean: [0.1307]
+  normalize_std: [0.3081]
+
+evaluation:
+  n_bins: 10  # For ECE calculation
+
+output:
+  models_dir: "./models"
+  results_dir: "./results"
+  plots_dir: "./plots"
+  log_file: "./results/experiment.log"

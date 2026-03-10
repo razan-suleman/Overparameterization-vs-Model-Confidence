@@ -1,0 +1,3 @@
+2026-03-11 00:03:54,645 - INFO - Loaded fashion_mnist dataset with 60000 train and 10000 test samples
+2026-03-11 00:04:38,978 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-11 00:09:18,814 - INFO - Test log message
