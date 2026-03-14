@@ -165,21 +165,6 @@ pip install torch torchvision matplotlib numpy
 python train.py
 ```
 
-The script will train models with different widths and compute accuracy, confidence, and calibration metrics.
-
----
-
-## Possible Extensions
-
-Future improvements could include:
-
-* Testing calibration on **CIFAR-10**
-* Applying **temperature scaling** to improve calibration
-* Studying deeper architectures
-* Evaluating robustness under distribution shift
-
----
-
 ## Conclusion
 
 This project demonstrates that **overparameterization can increase prediction confidence faster than it improves accuracy**, leading to **growing miscalibration in wide neural networks**.
