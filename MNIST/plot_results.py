@@ -64,6 +64,7 @@ def plot_results(widths, accuracies, confidences, eces):
     plt.savefig(f"{plots_dir}/accuracy_vs_width.png", dpi=300, bbox_inches='tight')
     plt.show()
 
+    
     # Confidence vs Width
     plt.figure(figsize=(10, 6))
     plt.plot(widths, confidences, marker='o', linewidth=2, markersize=8, color='orange')

@@ -1,3 +1,204 @@
 2026-03-11 00:03:54,645 - INFO - Loaded fashion_mnist dataset with 60000 train and 10000 test samples
 2026-03-11 00:04:38,978 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
 2026-03-11 00:09:18,814 - INFO - Test log message
+2026-03-14 18:52:57,824 - INFO - Starting experiment: width=32, seed=42
+2026-03-14 18:52:58,247 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 18:53:15,956 - INFO - Epoch 1/5, Loss: 0.4136
+2026-03-14 18:53:31,573 - INFO - Epoch 2/5, Loss: 0.2116
+2026-03-14 18:53:46,899 - INFO - Epoch 3/5, Loss: 0.1627
+2026-03-14 18:54:04,514 - INFO - Epoch 4/5, Loss: 0.1336
+2026-03-14 18:54:25,134 - INFO - Epoch 5/5, Loss: 0.1151
+2026-03-14 18:54:25,272 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w32_s42.pth
+2026-03-14 18:54:28,150 - INFO - Test Accuracy: 0.9620
+2026-03-14 18:54:30,534 - INFO - Average confidence: 0.9582
+2026-03-14 18:54:32,895 - INFO - ECE: 0.0065
+2026-03-14 18:56:39,143 - INFO - Starting experiment: width=32, seed=42
+2026-03-14 18:56:39,374 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 18:56:54,249 - INFO - Epoch 1/5, Loss: 0.4136
+2026-03-14 18:57:10,253 - INFO - Epoch 2/5, Loss: 0.2116
+2026-03-14 18:57:27,315 - INFO - Epoch 3/5, Loss: 0.1627
+2026-03-14 18:57:49,310 - INFO - Epoch 4/5, Loss: 0.1336
+2026-03-14 18:58:07,268 - INFO - Epoch 5/5, Loss: 0.1151
+2026-03-14 18:58:07,281 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w32_s42.pth
+2026-03-14 18:58:10,893 - INFO - Test Accuracy: 0.9620
+2026-03-14 18:58:13,984 - INFO - Average confidence: 0.9582
+2026-03-14 18:58:17,370 - INFO - ECE: 0.0065
+2026-03-14 18:58:17,372 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w32_s42.json
+2026-03-14 18:58:17,378 - INFO - Starting experiment: width=32, seed=123
+2026-03-14 18:58:17,584 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 18:58:37,260 - INFO - Epoch 1/5, Loss: 0.4079
+2026-03-14 18:58:54,956 - INFO - Epoch 2/5, Loss: 0.2216
+2026-03-14 18:59:13,434 - INFO - Epoch 3/5, Loss: 0.1761
+2026-03-14 18:59:33,034 - INFO - Epoch 4/5, Loss: 0.1488
+2026-03-14 18:59:47,086 - INFO - Epoch 5/5, Loss: 0.1309
+2026-03-14 18:59:47,088 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w32_s123.pth
+2026-03-14 18:59:49,301 - INFO - Test Accuracy: 0.9591
+2026-03-14 18:59:51,535 - INFO - Average confidence: 0.9550
+2026-03-14 18:59:53,766 - INFO - ECE: 0.0074
+2026-03-14 18:59:53,768 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w32_s123.json
+2026-03-14 18:59:53,772 - INFO - Starting experiment: width=32, seed=456
+2026-03-14 18:59:53,852 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:00:10,117 - INFO - Epoch 1/5, Loss: 0.4221
+2026-03-14 19:00:30,096 - INFO - Epoch 2/5, Loss: 0.2153
+2026-03-14 19:00:45,597 - INFO - Epoch 3/5, Loss: 0.1715
+2026-03-14 19:01:03,030 - INFO - Epoch 4/5, Loss: 0.1434
+2026-03-14 19:01:22,096 - INFO - Epoch 5/5, Loss: 0.1241
+2026-03-14 19:01:22,098 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w32_s456.pth
+2026-03-14 19:01:25,053 - INFO - Test Accuracy: 0.9629
+2026-03-14 19:01:28,004 - INFO - Average confidence: 0.9563
+2026-03-14 19:01:30,880 - INFO - ECE: 0.0075
+2026-03-14 19:01:30,884 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w32_s456.json
+2026-03-14 19:01:30,890 - INFO - Average for width 32: Accuracy=0.9613, Confidence=0.9565, ECE=0.0071
+2026-03-14 19:01:30,890 - INFO - Starting experiment: width=128, seed=42
+2026-03-14 19:01:30,980 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:01:50,724 - INFO - Epoch 1/5, Loss: 0.3008
+2026-03-14 19:02:07,880 - INFO - Epoch 2/5, Loss: 0.1312
+2026-03-14 19:02:25,161 - INFO - Epoch 3/5, Loss: 0.0915
+2026-03-14 19:02:39,751 - INFO - Epoch 4/5, Loss: 0.0687
+2026-03-14 19:02:54,012 - INFO - Epoch 5/5, Loss: 0.0537
+2026-03-14 19:02:54,014 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w128_s42.pth
+2026-03-14 19:02:56,232 - INFO - Test Accuracy: 0.9774
+2026-03-14 19:02:58,433 - INFO - Average confidence: 0.9772
+2026-03-14 19:03:00,639 - INFO - ECE: 0.0014
+2026-03-14 19:03:00,640 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w128_s42.json
+2026-03-14 19:03:00,647 - INFO - Starting experiment: width=128, seed=123
+2026-03-14 19:03:00,729 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:03:15,387 - INFO - Epoch 1/5, Loss: 0.3074
+2026-03-14 19:03:29,970 - INFO - Epoch 2/5, Loss: 0.1360
+2026-03-14 19:03:44,484 - INFO - Epoch 3/5, Loss: 0.0936
+2026-03-14 19:03:58,467 - INFO - Epoch 4/5, Loss: 0.0703
+2026-03-14 19:04:13,057 - INFO - Epoch 5/5, Loss: 0.0567
+2026-03-14 19:04:13,060 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w128_s123.pth
+2026-03-14 19:04:15,377 - INFO - Test Accuracy: 0.9740
+2026-03-14 19:04:17,734 - INFO - Average confidence: 0.9761
+2026-03-14 19:04:20,348 - INFO - ECE: 0.0024
+2026-03-14 19:04:20,349 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w128_s123.json
+2026-03-14 19:04:20,354 - INFO - Starting experiment: width=128, seed=456
+2026-03-14 19:04:20,446 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:04:34,838 - INFO - Epoch 1/5, Loss: 0.3085
+2026-03-14 19:04:48,841 - INFO - Epoch 2/5, Loss: 0.1375
+2026-03-14 19:05:02,967 - INFO - Epoch 3/5, Loss: 0.0952
+2026-03-14 19:05:17,971 - INFO - Epoch 4/5, Loss: 0.0732
+2026-03-14 19:05:32,310 - INFO - Epoch 5/5, Loss: 0.0582
+2026-03-14 19:05:32,312 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w128_s456.pth
+2026-03-14 19:05:34,503 - INFO - Test Accuracy: 0.9737
+2026-03-14 19:05:36,696 - INFO - Average confidence: 0.9753
+2026-03-14 19:05:38,894 - INFO - ECE: 0.0026
+2026-03-14 19:05:38,895 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w128_s456.json
+2026-03-14 19:05:38,900 - INFO - Average for width 128: Accuracy=0.9750, Confidence=0.9762, ECE=0.0021
+2026-03-14 19:05:38,900 - INFO - Starting experiment: width=256, seed=42
+2026-03-14 19:05:38,978 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:05:53,600 - INFO - Epoch 1/5, Loss: 0.2666
+2026-03-14 19:06:08,697 - INFO - Epoch 2/5, Loss: 0.1099
+2026-03-14 19:06:24,249 - INFO - Epoch 3/5, Loss: 0.0741
+2026-03-14 19:06:39,412 - INFO - Epoch 4/5, Loss: 0.0538
+2026-03-14 19:06:54,653 - INFO - Epoch 5/5, Loss: 0.0408
+2026-03-14 19:06:54,656 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w256_s42.pth
+2026-03-14 19:06:56,936 - INFO - Test Accuracy: 0.9781
+2026-03-14 19:06:59,189 - INFO - Average confidence: 0.9820
+2026-03-14 19:07:01,576 - INFO - ECE: 0.0039
+2026-03-14 19:07:01,578 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w256_s42.json
+2026-03-14 19:07:01,584 - INFO - Starting experiment: width=256, seed=123
+2026-03-14 19:07:01,790 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:07:17,136 - INFO - Epoch 1/5, Loss: 0.2639
+2026-03-14 19:07:32,711 - INFO - Epoch 2/5, Loss: 0.1081
+2026-03-14 19:07:47,280 - INFO - Epoch 3/5, Loss: 0.0724
+2026-03-14 19:08:03,300 - INFO - Epoch 4/5, Loss: 0.0532
+2026-03-14 19:08:19,889 - INFO - Epoch 5/5, Loss: 0.0391
+2026-03-14 19:08:19,892 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w256_s123.pth
+2026-03-14 19:08:22,303 - INFO - Test Accuracy: 0.9793
+2026-03-14 19:08:24,704 - INFO - Average confidence: 0.9819
+2026-03-14 19:08:26,971 - INFO - ECE: 0.0034
+2026-03-14 19:08:26,973 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w256_s123.json
+2026-03-14 19:08:26,977 - INFO - Starting experiment: width=256, seed=456
+2026-03-14 19:08:27,074 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:08:42,245 - INFO - Epoch 1/5, Loss: 0.2660
+2026-03-14 19:08:56,911 - INFO - Epoch 2/5, Loss: 0.1103
+2026-03-14 19:09:12,438 - INFO - Epoch 3/5, Loss: 0.0722
+2026-03-14 19:09:27,711 - INFO - Epoch 4/5, Loss: 0.0528
+2026-03-14 19:09:42,355 - INFO - Epoch 5/5, Loss: 0.0400
+2026-03-14 19:09:42,358 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w256_s456.pth
+2026-03-14 19:09:44,604 - INFO - Test Accuracy: 0.9772
+2026-03-14 19:09:46,828 - INFO - Average confidence: 0.9803
+2026-03-14 19:09:49,078 - INFO - ECE: 0.0034
+2026-03-14 19:09:49,079 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w256_s456.json
+2026-03-14 19:09:49,085 - INFO - Average for width 256: Accuracy=0.9782, Confidence=0.9814, ECE=0.0036
+2026-03-14 19:09:49,085 - INFO - Starting experiment: width=512, seed=42
+2026-03-14 19:09:49,178 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:10:07,420 - INFO - Epoch 1/5, Loss: 0.2329
+2026-03-14 19:10:24,922 - INFO - Epoch 2/5, Loss: 0.0902
+2026-03-14 19:10:42,428 - INFO - Epoch 3/5, Loss: 0.0573
+2026-03-14 19:11:03,555 - INFO - Epoch 4/5, Loss: 0.0417
+2026-03-14 19:11:20,435 - INFO - Epoch 5/5, Loss: 0.0294
+2026-03-14 19:11:20,439 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w512_s42.pth
+2026-03-14 19:11:23,385 - INFO - Test Accuracy: 0.9803
+2026-03-14 19:11:25,736 - INFO - Average confidence: 0.9854
+2026-03-14 19:11:28,045 - INFO - ECE: 0.0054
+2026-03-14 19:11:28,047 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w512_s42.json
+2026-03-14 19:11:28,052 - INFO - Starting experiment: width=512, seed=123
+2026-03-14 19:11:28,252 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:11:44,106 - INFO - Epoch 1/5, Loss: 0.2290
+2026-03-14 19:11:59,935 - INFO - Epoch 2/5, Loss: 0.0901
+2026-03-14 19:12:16,539 - INFO - Epoch 3/5, Loss: 0.0591
+2026-03-14 19:12:32,911 - INFO - Epoch 4/5, Loss: 0.0412
+2026-03-14 19:12:48,715 - INFO - Epoch 5/5, Loss: 0.0316
+2026-03-14 19:12:48,719 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w512_s123.pth
+2026-03-14 19:12:51,256 - INFO - Test Accuracy: 0.9786
+2026-03-14 19:12:53,656 - INFO - Average confidence: 0.9831
+2026-03-14 19:12:56,061 - INFO - ECE: 0.0050
+2026-03-14 19:12:56,063 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w512_s123.json
+2026-03-14 19:12:56,068 - INFO - Starting experiment: width=512, seed=456
+2026-03-14 19:12:56,152 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:13:12,566 - INFO - Epoch 1/5, Loss: 0.2310
+2026-03-14 19:13:29,256 - INFO - Epoch 2/5, Loss: 0.0895
+2026-03-14 19:13:45,035 - INFO - Epoch 3/5, Loss: 0.0582
+2026-03-14 19:14:03,348 - INFO - Epoch 4/5, Loss: 0.0414
+2026-03-14 19:14:20,352 - INFO - Epoch 5/5, Loss: 0.0302
+2026-03-14 19:14:20,356 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w512_s456.pth
+2026-03-14 19:14:23,310 - INFO - Test Accuracy: 0.9790
+2026-03-14 19:14:25,795 - INFO - Average confidence: 0.9837
+2026-03-14 19:14:28,351 - INFO - ECE: 0.0069
+2026-03-14 19:14:28,352 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w512_s456.json
+2026-03-14 19:14:28,356 - INFO - Average for width 512: Accuracy=0.9793, Confidence=0.9841, ECE=0.0057
+2026-03-14 19:14:28,356 - INFO - Starting experiment: width=1024, seed=42
+2026-03-14 19:14:28,439 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:14:49,328 - INFO - Epoch 1/5, Loss: 0.2115
+2026-03-14 19:15:09,171 - INFO - Epoch 2/5, Loss: 0.0799
+2026-03-14 19:15:28,437 - INFO - Epoch 3/5, Loss: 0.0512
+2026-03-14 19:15:46,818 - INFO - Epoch 4/5, Loss: 0.0363
+2026-03-14 19:16:05,854 - INFO - Epoch 5/5, Loss: 0.0254
+2026-03-14 19:16:05,859 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w1024_s42.pth
+2026-03-14 19:16:08,425 - INFO - Test Accuracy: 0.9775
+2026-03-14 19:16:10,981 - INFO - Average confidence: 0.9855
+2026-03-14 19:16:13,434 - INFO - ECE: 0.0080
+2026-03-14 19:16:13,436 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w1024_s42.json
+2026-03-14 19:16:13,440 - INFO - Starting experiment: width=1024, seed=123
+2026-03-14 19:16:13,526 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:16:34,759 - INFO - Epoch 1/5, Loss: 0.2096
+2026-03-14 19:16:56,556 - INFO - Epoch 2/5, Loss: 0.0818
+2026-03-14 19:17:21,256 - INFO - Epoch 3/5, Loss: 0.0500
+2026-03-14 19:17:41,084 - INFO - Epoch 4/5, Loss: 0.0352
+2026-03-14 19:18:01,668 - INFO - Epoch 5/5, Loss: 0.0286
+2026-03-14 19:18:01,675 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w1024_s123.pth
+2026-03-14 19:18:04,235 - INFO - Test Accuracy: 0.9791
+2026-03-14 19:18:06,804 - INFO - Average confidence: 0.9854
+2026-03-14 19:18:09,308 - INFO - ECE: 0.0063
+2026-03-14 19:18:09,310 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w1024_s123.json
+2026-03-14 19:18:09,314 - INFO - Starting experiment: width=1024, seed=456
+2026-03-14 19:18:09,412 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:18:30,813 - INFO - Epoch 1/5, Loss: 0.2107
+2026-03-14 19:18:51,155 - INFO - Epoch 2/5, Loss: 0.0806
+2026-03-14 19:19:11,722 - INFO - Epoch 3/5, Loss: 0.0515
+2026-03-14 19:19:37,679 - INFO - Epoch 4/5, Loss: 0.0356
+2026-03-14 19:19:57,791 - INFO - Epoch 5/5, Loss: 0.0274
+2026-03-14 19:19:57,797 - INFO - Saved model to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\models/model_w1024_s456.pth
+2026-03-14 19:20:00,248 - INFO - Test Accuracy: 0.9771
+2026-03-14 19:20:02,949 - INFO - Average confidence: 0.9848
+2026-03-14 19:20:05,640 - INFO - ECE: 0.0077
+2026-03-14 19:20:05,643 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w1024_s456.json
+2026-03-14 19:20:05,649 - INFO - Average for width 1024: Accuracy=0.9779, Confidence=0.9852, ECE=0.0073
+2026-03-14 19:22:06,893 - INFO - Loaded mnist dataset with 60000 train and 10000 test samples
+2026-03-14 19:22:10,380 - INFO - Test Accuracy: 0.0925
+2026-03-14 19:22:13,797 - INFO - Average confidence: 0.1377
+2026-03-14 19:22:16,435 - INFO - ECE: 0.0452
+2026-03-14 19:22:16,436 - INFO - Saved results to C:\Users\one\OneDrive\Dokumente\GitHub\Overparameterization-vs-Model-Confidence\results/results_w128_s0.json

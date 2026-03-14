@@ -1,7 +1,9 @@
+
+
 import torch.nn as nn
 import torch.optim as optim
-from .utils import get_data_loaders, MLP, set_seed, save_model, config, logger
-from .evaluate import evaluate, evaluate_confidence, compute_ece, save_results
+from utils import get_data_loaders, MLP, set_seed, save_model, config, logger
+from evaluate import evaluate, evaluate_confidence, compute_ece, save_results
 
 # ----------------------------
 # 3. Training

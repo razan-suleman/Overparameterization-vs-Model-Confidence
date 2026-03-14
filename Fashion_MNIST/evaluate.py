@@ -1,8 +1,8 @@
+
 import torch
 import torch.nn.functional as F
 import json
-import os
-from .utils import config, logger
+from Fashion_MNIST.utils import config, logger
 
 # ----------------------------
 # 5. Evaluation
@@ -104,7 +104,7 @@ def load_results(width, seed):
 
 if __name__ == "__main__":
     # Example usage: evaluate a trained model
-    from .utils import MLP, get_data_loaders
+    from utils import MLP, get_data_loaders
     train_loader, test_loader = get_data_loaders()
     model = MLP(width=128)  # Example model
     accuracy = evaluate(model, test_loader)

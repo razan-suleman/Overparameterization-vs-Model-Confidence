@@ -13,6 +13,18 @@ config_path = os.path.join(project_root, "config.yaml")
 with open(config_path, "r") as f:
     config = yaml.safe_load(f)
 
+# Make paths absolute
+config['data']['root'] = os.path.join(project_root, config['data']['root'].lstrip('./'))
+config['output']['models_dir'] = os.path.join(project_root, config['output']['models_dir'].lstrip('./'))
+config['output']['results_dir'] = os.path.join(project_root, config['output']['results_dir'].lstrip('./'))
+config['output']['plots_dir'] = os.path.join(project_root, config['output']['plots_dir'].lstrip('./'))
+config['output']['log_file'] = os.path.join(project_root, config['output']['log_file'].lstrip('./'))
+
+# Ensure output directories exist
+os.makedirs(config['output']['models_dir'], exist_ok=True)
+os.makedirs(config['output']['results_dir'], exist_ok=True)
+os.makedirs(config['output']['plots_dir'], exist_ok=True)
+
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
